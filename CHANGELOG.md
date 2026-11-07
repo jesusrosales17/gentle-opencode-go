@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.1] - 2026-11-07
+
+- Ships the official "Built with Gentle-AI" badge and its credit, so the mark renders on the npm page too.
+- Documents that the endpoint can trail the OpenCode workspace dashboard by a point while a window is moving.
+- Documents the `gentle-shell install` command, which is the one that targets the standalone home.
+
 ## [0.1.0] - 2026-11-07
 
 Initial release.
