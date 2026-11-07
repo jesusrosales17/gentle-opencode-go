@@ -45,6 +45,26 @@ Then reload (`/reload`) or restart, send one message with an `opencode-go/*` mod
 
 Plain Pi has no listener for this event, so the extension is a no-op there. Its only effect is inside Gentle Shell.
 
+## What it looks like
+
+In the status bar, after the session cost:
+
+```text
+deepseek-v4.1-flash · high │ ctx ▰▰▱▱▱▱▱▱ 20% │ $0.661 │ usage 5h ▰▱ 4% · week ▰▰▰▰▱ 46% · 30d ▰▰▰▰▰ 56% · alt+u
+```
+
+`alt+u` opens the panel, one row per window:
+
+```text
+✿ Subscriptions
+  opencode-go · OpenCode Go · updated just now
+    OpenCode Go 5h    ▰▱▱▱▱▱▱▱  4% · resets in 3h 16m
+    OpenCode Go week  ▰▰▰▰▱▱▱▱ 46% · resets in 1d 7h
+    OpenCode Go 30d   ▰▰▰▰▰▱▱▱ 56% · resets in 17d 5h
+```
+
+The percentages are what the endpoint answered at the last refresh, never an average or an estimate.
+
 ## How it works
 
 One authenticated, read-only `GET` to a fixed route:
