@@ -77,6 +77,7 @@ Review the source before installing any third-party package: it is two files und
 
 - **Window lengths are not published by the endpoint.** The labels `5h`, `week` and `30d` are fixed in the source. The month is approximated at 30 days. These only drive the label, the meter width and the ordering; the percentage and the reset time always come from the server.
 - **`status` has no published meaning** beyond the `"ok"` value the endpoint returns today. It is never interpreted: the percentage is always shown as reported, and any other status only raises the limit flag.
+- **The endpoint can trail the OpenCode console by a point.** While usage is advancing, `GET /zen/go/v1/usage` has been observed reporting one point less than the workspace dashboard on all three windows at once (dashboard 2/46/56 against endpoint 1/45/55). The gap is on OpenCode's side: this package reports exactly what the endpoint answers, never a smoothed or adjusted value. The two surfaces are usually identical, so treat the dashboard as the leading indicator while a window is moving.
 - **The endpoint is outside OpenCode's published OpenAPI**, so its shape may change. A malformed or empty payload is dropped rather than guessed, which means the segment can disappear instead of showing wrong numbers.
 - **It reflects the subscription, not this session.** Usage you spend in the OpenCode CLI counts too.
 
