@@ -23,7 +23,9 @@
   ],
   "files": [
     "src/**/*.ts",
-    "assets/**",
+    "assets/built-with-gentle-ai.webp",
+    "assets/status-bar.png",
+    "assets/subscriptions-panel.png",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"

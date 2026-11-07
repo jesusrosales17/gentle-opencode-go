@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <radialGradient id="glow" cx="18%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#ff76c3" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#ff76c3" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#ff76c3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff76c3" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff76c3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="#1a1218"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1280" height="6" fill="url(#rule)"/>
+
+  <text x="80" y="118" font-family="DejaVu Sans Mono, monospace" font-size="20" letter-spacing="3" fill="#ff76c3">USAGE SOURCE · GENTLE SHELL</text>
+
+  <text x="80" y="196" font-family="DejaVu Sans, Helvetica, sans-serif" font-size="62" font-weight="bold" fill="#f6eff3">gentle-opencode-go</text>
+
+  <text x="80" y="246" font-family="DejaVu Sans, Helvetica, sans-serif" font-size="26" fill="#a78e9b">OpenCode Go subscription usage in the status bar and the alt+u panel</text>
+
+  <rect x="80" y="300" width="1120" height="248" rx="14" fill="#20161e" stroke="#342230" stroke-width="2"/>
+  <circle cx="112" cy="332" r="6" fill="#ff76c3"/>
+  <text x="132" y="340" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#a78e9b">Subscriptions · opencode-go · updated just now</text>
+
+  <g font-family="DejaVu Sans Mono, monospace">
+    <text x="112" y="404" font-size="23" fill="#a78e9b">OpenCode Go 5h</text>
+    <g transform="translate(360,386)">
+      <rect x="0" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="24" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="48" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="72" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="96" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="120" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="144" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="168" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="192" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="216" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="240" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="264" y="0" width="18" height="22" rx="4" fill="#342230"/>
+    </g>
+    <text x="668" y="404" font-size="26" font-weight="bold" fill="#f6eff3">4%</text>
+    <text x="760" y="404" font-size="19" fill="#76616b">resets in 3h 16m</text>
+
+    <text x="112" y="464" font-size="23" fill="#a78e9b">OpenCode Go week</text>
+    <g transform="translate(360,446)">
+      <rect x="0" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="24" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="48" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="72" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="96" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="120" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="144" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="168" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="192" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="216" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="240" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="264" y="0" width="18" height="22" rx="4" fill="#342230"/>
+    </g>
+    <text x="668" y="464" font-size="26" font-weight="bold" fill="#f6eff3">46%</text>
+    <text x="760" y="464" font-size="19" fill="#76616b">resets in 1d 7h</text>
+
+    <text x="112" y="524" font-size="23" fill="#a78e9b">OpenCode Go 30d</text>
+    <g transform="translate(360,506)">
+      <rect x="0" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="24" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="48" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="72" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="96" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="120" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="144" y="0" width="18" height="22" rx="4" fill="#ff76c3"/><rect x="168" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="192" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="216" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="240" y="0" width="18" height="22" rx="4" fill="#342230"/><rect x="264" y="0" width="18" height="22" rx="4" fill="#342230"/>
+    </g>
+    <text x="668" y="524" font-size="26" font-weight="bold" fill="#f6eff3">56%</text>
+    <text x="760" y="524" font-size="19" fill="#76616b">resets in 17d 5h</text>
+  </g>
+
+  <text x="80" y="600" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#76616b">npm:gentle-opencode-go</text>
+  <text x="1200" y="600" text-anchor="end" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#76616b">github.com/jesusrosales17/gentle-opencode-go</text>
+</svg>
