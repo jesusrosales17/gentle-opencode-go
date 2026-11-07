@@ -3,6 +3,7 @@
 ## [0.1.2] - 2026-11-07
 
 - Ships the built-with badge as a 640px WebP instead of a 900px PNG: the same picture at 55 kB instead of 474 kB, so the tarball stays small without a visible quality loss.
+- Adds two screenshots of the real output, the status bar segment and the Subscriptions panel, above their transcribed text.
 
 ## [0.1.1] - 2026-11-07
 

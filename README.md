@@ -49,11 +49,19 @@ Plain Pi has no listener for this event, so the extension is a no-op there. Its 
 
 In the status bar, after the session cost:
 
+<p align="center">
+  <img src="assets/status-bar.png" alt="The Gentle Shell status bar showing 5h 4%, week 46% and 30d 56%" width="820">
+</p>
+
 ```text
 deepseek-v4.1-flash · high │ ctx ▰▰▱▱▱▱▱▱ 20% │ $0.661 │ usage 5h ▰▱ 4% · week ▰▰▰▰▱ 46% · 30d ▰▰▰▰▰ 56% · alt+u
 ```
 
 `alt+u` opens the panel, one row per window:
+
+<p align="center">
+  <img src="assets/subscriptions-panel.png" alt="The Subscriptions panel listing the three OpenCode Go windows with their resets" width="820">
+</p>
 
 ```text
 ✿ Subscriptions
