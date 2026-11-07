@@ -1,12 +1,10 @@
 <p align="center">
-  <img src="assets/gentle-ai.webp" alt="The Gentle-AI rose" width="130">
+  <a href="https://gentlemanprogramming.com/">
+    <img src="assets/built-with-gentle-ai.png" alt="Built with Gentle-AI" width="320">
+  </a>
 </p>
 
 <h1 align="center">gentle-opencode-go</h1>
-
-<p align="center">
-  <a href="https://gentlemanprogramming.com/"><img src="https://img.shields.io/badge/built_with-gentle--ai-ff76c3?labelColor=1a1218" alt="Built with gentle-ai"></a>
-</p>
 
 OpenCode Go subscription usage in Gentle Shell — the status bar segment and the `/gentle:usage` panel behind `alt+u`.
 
