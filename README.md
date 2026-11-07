@@ -1,6 +1,14 @@
-# gentle-opencode-go
+<p align="center">
+  <img src="assets/gentle-ai.webp" alt="The Gentle-AI rose" width="130">
+</p>
 
-OpenCode Go subscription usage in [Gentle Shell](https://github.com/gentle-ai) — the status bar segment and the `/gentle:usage` panel behind `alt+u`.
+<h1 align="center">gentle-opencode-go</h1>
+
+<p align="center">
+  <a href="https://gentlemanprogramming.com/"><img src="https://img.shields.io/badge/built_with-gentle--ai-ff76c3?labelColor=1a1218" alt="Built with gentle-ai"></a>
+</p>
+
+OpenCode Go subscription usage in Gentle Shell — the status bar segment and the `/gentle:usage` panel behind `alt+u`.
 
 Gentle Shell ships built-in usage readers for Codex, Claude and NaN Cloud. OpenCode Go subscriptions have none, so `alt+u` never moves while you use an `opencode-go` model. This package registers OpenCode Go as a usage source, and Gentle Shell treats it exactly like a built-in one.
 
@@ -90,4 +98,6 @@ npm run verify   # tsc --noEmit, then node --test
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
+
+The Gentle-AI rose is the mark of [Gentleman Programming](https://gentlemanprogramming.com/), used here only to say what this package targets. This is a community package: it is not an official Gentleman Programming release.
