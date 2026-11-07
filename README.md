@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://gentlemanprogramming.com/">
-    <img src="assets/built-with-gentle-ai.png" alt="Built with Gentle-AI" width="320">
+    <img src="assets/built-with-gentle-ai.webp" alt="Built with Gentle-AI" width="320">
   </a>
 </p>
 

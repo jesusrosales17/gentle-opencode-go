@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2] - 2026-11-07
+
+- Ships the built-with badge as a 640px WebP instead of a 900px PNG: the same picture at 55 kB instead of 474 kB, so the tarball stays small without a visible quality loss.
+
 ## [0.1.1] - 2026-11-07
 
 - Ships the official "Built with Gentle-AI" badge and its credit, so the mark renders on the npm page too.

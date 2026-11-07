@@ -1,6 +1,6 @@
 {
   "name": "gentle-opencode-go",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "OpenCode Go subscription usage in Gentle Shell's status bar and /gentle:usage panel",
   "type": "module",
   "license": "MIT",
